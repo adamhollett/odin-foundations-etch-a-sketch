@@ -18,6 +18,10 @@ main {
   margin: 10px;
 }
 
+.reset {
+  margin-bottom: 10px;
+}
+
 .grid {
   display: flex;
   flex-direction: column;
