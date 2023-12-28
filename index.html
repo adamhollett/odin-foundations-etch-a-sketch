@@ -12,7 +12,26 @@
 
 <body>
   <main>
-    <button id="reset" class="reset">Reset grid</button>
+    <div class="toolbar">
+      <div class="modes">
+        <span class="modes-label">Mode</span>
+
+        <label for="mode-solid">
+          <input type="radio" id="mode-solid" name="mode" value="solid" />
+          Solid
+        </label>
+
+        <label for="mode-rainbow">
+          <input type="radio" id="mode-rainbow" name="mode" value="rainbow" />
+          Rainbow
+        </label>
+
+        <!-- <input type="radio" id="mode-darken" name="mode" value="darken" />
+        <label for="darken">Darken</label> -->
+      </div>
+
+      <button id="reset" class="reset">Reset grid</button>
+    </div>
 
     <div id="grid" class="grid">
     </div>
